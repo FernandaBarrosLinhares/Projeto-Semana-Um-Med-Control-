@@ -1,0 +1,60 @@
+cadastro medicacao
+
+<!-- Deve conter um input para a busca de paciente e um formulário para cadastro de consulta com botões editar, deletar e salvar. -->
+<!-- Durante o cadastro, os botões de editar e deletar devem ficar desativados (desabilitados). -->`
+
+<div class=" row">
+ 
+    <button type="submit" class="button" class="btn btn-outline-info text-body-info my-4">Editar</button>
+    <button type="submit" class="button" class="btn btn-outline-info text-body-info my-4"> Deletar</button>
+    <button type="submit" class="button" class="btn btn-outline-info text-body-info my-4"> Salvar</button>
+  </div>
+ 
+
+<!-- Campos do formulário: -->
+<!-- Nome do Medicamento: Obrigatório, com máximo e mínimo de 80 e 8 caracteres, respectivamente. -->
+
+<div class="col-md-4">
+    <label for="inputNomeMedicamento" class="form-label">Nome do medicamento</label>
+    <input type="text" class="form-control" id="inputNomeMedicamento">
+  </div>
+<!--
+Data: Obrigatório, buscando data atual do sistema e liberando para edição.
+
+Horário: Obrigatório, buscando horário atual do sistema e liberando para edição. -->
+
+<!-- Tipo: Obrigatório com dropdown de opções pré-definidas. -->
+<!-- Opções: Cápsula, Comprimido, Líquido, Creme, Gel, Inalação, Injeção ou Spray. -->
+<div class="col-md-1">
+    <select class="form-select" multiple aria-label="multiple select example">
+      <option selected>Capsula</option>
+      <option value="1">Compremido</option>
+      <option value="2">Líquido</option>
+      <option value="3">Creme</option>
+      <option value="1">Gel</option>
+      <option value="2">Inalação</option>
+      <option value="2">Injeção</option>
+      <option value="2">Spray</option>
+    </select>
+  </div>
+
+<!-- Quantidade: Obrigatório, do tipo numérico com no mínimo duas casas após a vírgula. -->
+<!--
+<div class="col-md-2">
+    <label for="inputQuantidade" class="form-label">Quantidade</label>
+    <input type="number" class="form-control" id="inputQuantidade">
+  </div> -->
+
+<!-- Unidade: Obrigatório com dropdown de opções pré-definidas.
+Opções: mg, mcg, g, mL e % -->
+
+<div class="col-md-1">
+    <select class="form-select" multiple aria-label="multiple select example">
+      <option selected>mg</option>
+      <option value="1">mcg</option>
+      <option value="2">g</option>
+      <option value="3">ml</option>
+      <option value="1">%</option>
+   
+    </select>
+  </div>

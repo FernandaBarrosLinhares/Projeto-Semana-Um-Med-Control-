@@ -1,20 +1,27 @@
+# MedControl
 
-# Med Control
-O MedControl, é software de gestão de medicamentos administrados em ambiente hospitalar. Além do controle do estoque, ele facilita a comunicação entre os colaboradores sobre todas as medicações administradas aos pacientes, assim como dosagens, tempo de administração e quantidade administrada.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
-As técnicas e tecnologias utilizadas foram: 
+## Development server
 
-- HTML e CSS: HTML5 (elementos semânticos) e CSS (seletores, principais estilos, layouts e flexbox).
-- JavaScript: Variáveis, Tipos de Dados, Estrutura de Controle de Fluxo (condicional e repetição), Operadores (aritméticos, lógicos e relacionais), Funções, ES6+, Escopo, Arrow Functions, Operadores Rest e Spread, Funções de Arrays, Manipulação do DOM, Utilização de Seletores, Eventos, Classes, Atributos, Encapsulamento, Herança, Polimorfismo, Módulos, Funções Assíncronas, JSON, LocalStorage, Interval e Timeout
-- Angular: Setup Inicial (instalação e configuração), Angular CLI, Estrutura, Bootstrap, Componentes, Property Binding, Passagem de Valores, Injeção de Dependência, Eventos de Componentes, Rotas, Navegação Segura, Decorators, Diretivas (ngIf e ngFor) e ng-content.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Como executar:
+## Code scaffolding
 
-- Tela de Login para autenticação;
-- Botão para cadastro de novo usuário;
-- Página de Início Contendo as estatísticas do sistema e busca de pacientes.
-- Página de Cadastro com formulário para cadastro de paciente e botões para editar, deletar e salvar.
-- Página de Cadastro de Medicamentos: Com busca de pacientes e um formulário para cadastro de consulta com botões editar, deletar e salvar.
-- Página com Histórico de Medicação: Possui uma barra de pesquisa e listagem de pacientes cadastrados com  um botão para abrir os detalhes.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-O projeto se encontra em sua etapa inicial, sem todas as funcionalidades aplicadas. Nessecitando de uma revisão de conteudo para aplicacão das tecnologias e devidas correções.
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

@@ -1,0 +1,41 @@
+<form (ngSubmit)="onSubmit()" #loginForm="ngForm" >
+  <div class="col- 6 mb-3 text-start text-primary fw-light">
+
+     <label for="exampleInputName" class="form-label ">Nome</label>
+    <input
+    type="text"
+    name= "nome"
+    name=[(ngModule)]="getNome"
+    class="form-control"
+    id="exampleInputNome"
+   />
+
+  </div>
+
+  <div class="col-6 mb-3 text-start text-primary fw-light">
+
+    <label for="exampleInputEmail1" class="form-label">Email:</label>
+    <input
+    type="email"
+    name= "e-mail"
+    name=[(ngModule)]="getEmail"
+     class="form-control"
+   />
+
+  </div>
+  <div class=" mb-3 text-start text-primary fw-light">
+    <label for="exampleInputPassword1" class="form-label">Senha</label>
+    <input
+    type="password"
+    name ="senha"
+    name=[(ngModule)]="getSenha"
+    class="form-control"
+    />
+  </div>
+
+  <button type="submit" class="row col-6 btn btn-primary mx-auto p-2" style="width: 200px shadow p-3 mb-5 bg-body-tertiary rounded">Entrar </button>
+
+<p><a class="link-opacity-75 align-items-start" href="#">Esqueceu sua senha? </a>
+
+
+</form>
